@@ -2,11 +2,15 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 :root {
     --primary-color: #6C60E0;
     --secondary-color: #FF764A;
-
+ 
     --text-color-2: #414141;
 }
 
@@ -43,4 +47,32 @@ span {
 
 .nav-item {
     margin-right: 85px;
+}
+
+
+
+
+/* navbar */
+
+footer {
+    border-top: 1px solid #EAEAEA;
+    margin-top: 500px;
+}
+
+footer h5 {
+    font-size: 18px;
+    color: #797979;
+    font-weight: 600;
+}
+
+footer ul {
+    margin-top: 38px;
+}
+
+footer li {
+    margin-bottom: 12px;
+}
+
+footer ul li a {
+    color: #797979;
 }
