@@ -52,11 +52,27 @@ span {
 
 
 
-/* navbar */
-
+/* footer */
 footer {
     border-top: 1px solid #EAEAEA;
     margin-top: 500px;
+}
+
+h5.text-logo {
+    color: #1C1A1B;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sosmed-footer {
+    display: flex;
+    gap: 43px;
+    padding-bottom: 40px;
+}
+
+.sosmed-logo:hover {
+    scale: 1.2;
+    animation: all 0.5s  ease-in-out;
 }
 
 footer h5 {
