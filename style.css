@@ -1,3 +1,46 @@
 body {
     font-family: 'Inter', sans-serif;
 }
+
+
+:root {
+    --primary-color: #6C60E0;
+    --secondary-color: #FF764A;
+
+    --text-color-2: #414141;
+}
+
+/* navbar */
+
+nav ul li {
+    font-size: 16px;
+}
+
+.btn {
+    padding: 10px 30px;
+    border: none;
+}
+
+.btn.btn-primary{
+    background-color: var(--secondary-color);
+    border: none;
+}
+
+.btn.btn-flat {
+    background-color: transparent;
+    color: var(--text-color-2)
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1C1A1B;
+}
+
+span {
+    color: var(--primary-color);
+}
+
+.nav-item {
+    margin-right: 85px;
+}
