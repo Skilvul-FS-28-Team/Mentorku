@@ -25,8 +25,17 @@ nav ul li {
     border: none;
 }
 
-.btn.btn-primary{
+.btn-secondary{
     background-color: var(--secondary-color);
+    border: none;
+}
+
+.btn-primary{
+    background-color: var(--primary-color);
+    border: none;
+}
+.btn-primary:hover{
+    background-color: #9b91f4;
     border: none;
 }
 
@@ -254,25 +263,30 @@ h1 {
     padding-top: 2px;
 }
 
+/* Banner Join mentor */
 
+.join-mentor-section {
+    margin-top: 100px;
+}
 
+.banner-join-mentor {
+    background-image: url(/Assets/Img/banner\ jadi\ mentor.png);
+    background-size: cover;
+    padding: 80px 259px;
+    border-radius: 20px;
+    color: white;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.banner-join-mentor h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
 
 /* footer */
 footer {
     border-top: 1px solid #EAEAEA;
-    margin-top: 500px;
+    margin-top: 100px;
 }
 
 h5.text-logo {
