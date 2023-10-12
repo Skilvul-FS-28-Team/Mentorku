@@ -80,7 +80,7 @@ h1 {
 }
 
 .statistic h3 {
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .statistic p {
@@ -98,6 +98,22 @@ h1 {
 .search-input:focus {
     border-color: #9c95d7;
 }
+
+/* Partner */
+
+.partner-section h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.partner-section {
+    background-color: #FAFAFA;
+    color: #6B6B6B;
+    padding: 47px 20px;
+}
+
+
 
 
 
