@@ -118,6 +118,7 @@ h1 {
 .benefit-section {
     background-color: #FAF8FF;
     padding-top: 90px;
+    padding-bottom: 10px;
 }
 
 .benefit-section h3 {
@@ -160,8 +161,98 @@ h1 {
     font-weight: 500;
 }
 
+.benefit-section a {
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 16px;
+}
 
+/* Recomdation section */
 
+.recomendation-section {
+    margin-top: 100px;
+}
+
+.recomendation-section h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #4D4D4D;
+    margin-bottom: 50px;
+}
+
+.card {
+    border: 0.763px solid #BFBFBF;
+    padding: 12px 14px;
+    border-radius: 14px;     
+}
+
+.mentor-card img {
+    width: 100%;
+}
+
+.mentor-company {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #2573C8;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.mentor-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+}
+
+.mentor-card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #4D4D4D;
+    margin-top: 8px;
+}
+.mentor-experience {
+    padding-bottom: -1px;
+}
+
+.avaliable-info {
+    font-weight: 500;
+    padding: 7px 31px;
+    background-color: #D5E9FE;
+    color: #575757;
+    border-radius: 20px;
+}
+
+.price {
+    color: #7A49E1;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.rating {
+    display: flex;
+    gap: 4px;
+    font-weight: 500;
+}
+
+.price-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+}
 
 
 
