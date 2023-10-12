@@ -108,6 +108,94 @@ h1 {
     border-color: #9c95d7;
 }
 
+/* search bar */
+
+.search-bar {
+    background-color: #F9FBFD;
+    width: 590px;
+    display: flex;
+    padding: 2px;
+    border-radius: 20px;
+    margin-bottom: 60px;
+    margin-top: 43px;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+#select {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* color: white; */
+    gap: 20px;
+    min-width: 146px;
+    padding: 15px 20px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 20px 0px 0px 20px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-right: 3px solid #C1C1C1;
+}
+
+#select img {
+    width: 15px;
+}
+
+#select ul {
+    position: absolute;
+    top: 120%;
+    left: 0;
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.952);
+    color: rgb(42, 42, 42);
+    width: 100%;
+    border-radius: 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    color: #797979;
+}
+
+#select ul li {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.search-bar input{
+    padding: 10px 25px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+#select ul.open{
+    max-height: 300px;
+}
+
+.search-button {
+    border: none;
+    border-radius: 20px;
+    padding: 18px 28px;
+    cursor: pointer;
+    background-color: #6C60E0;;
+    z-index: 5;
+}
+
+.search-icon {
+    width: 30px;
+}
+
+.bi-search {
+    font-size: 24px;
+    color: white;
+}
+
 /* Partner */
 
 .partner-section h3 {
@@ -120,6 +208,10 @@ h1 {
     background-color: #FAFAFA;
     color: #6B6B6B;
     padding: 47px 20px;
+}
+
+p#select-text {
+    margin: 0;
 }
 
 /* benefit */
