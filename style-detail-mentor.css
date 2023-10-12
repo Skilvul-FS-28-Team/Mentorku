@@ -90,9 +90,71 @@ h1 {
 
 
 
+#card-container {
+    display: flex;
+}
 
+#card- h3{
+    padding-bottom: 20px;
+}
 
+#card-body {
+    margin-bottom: 20px;
+}
+.card img {
+    width: 100%;
+}
 
+.card-avaliable {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    background: #FAFAFA;
+    border-radius: 22px;
+
+}
+
+.border-button {
+    border: none;
+    margin-right: 15px;
+    margin-top: 20px;
+    padding: 9px 25px;
+    border-radius: 22px;
+    background: #D5E9FE;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.card-experience {
+    font-size: 12px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.card-experience span{
+    display: block;
+    font-weight: bold;
+}
+
+.card-range {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.card-text  {
+    color: #2573C8;
+}
+.card-text img {
+    width: 20px;
+}
+
+.range-card {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.range-card span {
+    color: #EAB308;
+}
 
 
 
