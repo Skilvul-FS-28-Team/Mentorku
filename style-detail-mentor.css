@@ -87,15 +87,88 @@ h1 {
     font-size: 16px;
 }
 
+/* Card Reviewer */
+
+#card-reviewer {
+    margin: 0px;
+    display: flex;
+}
+#card-reviewer img {
+    width: 15%;
+    height: 15%;
+    border-radius: 100%;
+    padding-right
+}
+
+.card-body-reviewer{
+    margin-left: 7px;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+.tittle-card{
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    color: var(--primary-color);
+}
+.card-work{
+    font-size: 14px;
+    opacity: 90%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.card-star{
+    color: #EAB308;
+    margin: 0px;
+}
+
+#text-card{
+    opacity: 90%;
+}
+
+.button-centered {
+    display: grid;
+    place-items: center;
+}
+
+.button-reviewer {
+    background-color: white;
+    color: var(--primary-color);
+    padding: 15px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 30px 0px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 2px solid;
+    border-color: #6C60E0;
+  }
+  
+  .button-reviewer:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+  }
 
 
-
+/* Card Mentor */
 #card-container {
     display: flex;
 }
 
 #card- h3{
     padding-bottom: 20px;
+    font-weight: bold;
+}
+
+#card-box{
+    margin-bottom: 20px;
 }
 
 #card-body {
@@ -117,7 +190,6 @@ h1 {
     padding: 0;
     background: #FAFAFA;
     border-radius: 22px;
-
 }
 
 .border-button {
@@ -179,7 +251,7 @@ h1 {
 
 .button-mentor {
     background-color: var(--primary-color);
-    border: none;
+    border: 2px var(--primary-color);
     color: white;
     padding: 15px 70px;
     text-align: center;
@@ -188,10 +260,15 @@ h1 {
     margin: 30px 0px;
     cursor: pointer;
     border-radius: 10px;
+    font-weight: bold;
+
   }
   
   .button-mentor:hover {
-    opacity: 40%;
+    border: 2px solid;
+    background-color: white;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
   }
 
 
