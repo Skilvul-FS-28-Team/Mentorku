@@ -10,7 +10,7 @@ a {
 :root {
     --primary-color: #6C60E0;
     --secondary-color: #FF764A;
- 
+
     --text-color-2: #414141;
 }
 
@@ -28,6 +28,9 @@ nav ul li {
 .btn-secondary{
     background-color: var(--secondary-color);
     border: none;
+}
+.btn-secondary:hover{
+    background-color: #ff9674;
 }
 
 .btn-primary{
@@ -95,7 +98,6 @@ h1 {
 .statistic p {
     font-size: 16px;
 }
-
 .search-input {
     padding: 12px 20px;
     border-radius: 10px;
@@ -112,13 +114,15 @@ h1 {
 
 .search-bar {
     background-color: #F9FBFD;
-    width: 590px;
     display: flex;
     padding: 2px;
+    width: 526px;
     border-radius: 20px;
     margin-bottom: 60px;
     margin-top: 43px;
     box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    border-radius: 10px;
+    border: 1px solid var(#F9FBFD, #D1D9E2);
 }
 
 #select {
@@ -282,77 +286,78 @@ p#select-text {
 }
 
 .card {
-    border: 0.763px solid #BFBFBF;
-    padding: 12px 14px;
-    border-radius: 14px;     
+    cursor: pointer;
 }
 
-.mentor-card img {
-    width: 100%;
+.card:hover {
+    
+}
+
+.card-mentor {
+    padding: 13px 15px;
+}
+
+.card-mentor h3{
+    margin-top: 8px;
+    font-weight: 700;
+    color: #4D4D4D;
+    font-size: 20px;
 }
 
 .mentor-company {
-    display: flex;
-    align-items: center;
-    gap: 10px;
     color: #2573C8;
-    font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.mentor-company .bi-suitcase-lg {
+    font-size: 18px;
 }
 
 .mentor-info {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 8px;
     background-color: #FAFAFA;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 2px;
+    padding: 10px 20px;
+    border-radius: 8px;
 }
 
-.mentor-card h3 {
-    font-size: 20px;
-    font-weight: 700;
-    color: #4D4D4D;
-    margin-top: 8px;
-}
 .mentor-experience {
-    padding-bottom: -1px;
+    font-size: 14px
 }
 
-.avaliable-info {
-    font-weight: 500;
-    padding: 7px 31px;
+.mentor-experience p{
+    color: #797979;
+}
+
+.mentor-experience b {
+    color: #384853;
+}
+
+.mentor-status {
+    padding: 7px 22px;
     background-color: #D5E9FE;
+    border-radius: 22px;
+    font-size: 14px;
+    font-weight: 400;
     color: #575757;
-    border-radius: 20px;
-}
-
-.price {
-    color: #7A49E1;
-    font-size: 24px;
-    font-weight: 600;
-}
-
-.rating {
-    display: flex;
-    gap: 4px;
-    font-weight: 500;
 }
 
 .price-info {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 8px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 2px;
+    margin-top: 12px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 600;
+    color: #7A49E1;
+}
+
+.rating b {
+    color: #4D4D4D;
+    font-weight: 500;
+}
+
+.bi-star-fill {
+    color: #EAB308;
 }
 
 /* Banner Join mentor */
