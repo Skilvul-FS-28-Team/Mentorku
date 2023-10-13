@@ -87,6 +87,100 @@ h1 {
     font-size: 16px;
 }
 
+
+/* Description */
+#description {
+    margin-bottom: 20px;
+}
+
+#desc-card {
+    font-size: 28px;
+    font-weight: bold;
+    opacity: 90%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#desc-text {
+    margin-left: 5px;
+    font-size: 16px;
+    color: black;
+    opacity: 70%
+}
+
+#desc-text span {
+    display: block;
+    margin-bottom: 2px;
+}
+
+.button-professional {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 35px;
+}
+
+.btn-professional {
+    margin-top: 0px;
+    margin-right: 4px;
+    padding: 8px 15px;
+    background-color: #558BF5;
+    color: #fff;
+    border: 1px solid #558BF5;
+    border-radius: 29px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.btn-professional:hover {
+    background-color: white;
+    color: #558BF5;
+    border: 1px solid #558BF5;
+}
+
+.fa {
+    padding-top:10px;
+    margin-left:10px;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #4A4A4A;
+    margin-top: 25px;
+    border: 1px solid #4A4A4A;
+    background-color: #E6E6E6;
+    border-radius: 100%;
+  }
+
+  .fa:hover {
+    animation-delay: 2s;
+    color: #E6E6E6;
+    background-color: white;
+}
+
+
+
+.button-tutorial {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-top: 60px;
+    font-size: 14px;
+    opacity: 80%;
+    padding-left: 8px;
+    font-weight: bold;
+}
+
+.btn-tutorial {
+    background-color: white;
+    border: none;
+    color: red;
+    font-weight: bold;
+}
+
+
 /* Rate Mentor */
 #card-rating-container {
     margin-bottom: 20px;
@@ -96,7 +190,7 @@ h1 {
     font-weight: bold;
     padding-top: 15px;
     padding-left: 10px;
-    font-size: 32px;
+    font-size: 28px;
     opacity: 90%;
     padding-bottom: 0px;
     margin-bottom: 0px;
