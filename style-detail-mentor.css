@@ -181,9 +181,112 @@ h1 {
 }
 
 
+/* Card Jadwal */
+#card-sesi-jadwal{
+    margin-bottom: 20px;
+}
+
+#card-jadwal {
+    font-size: 28px;
+    font-weight: bold;
+    opacity: 80%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+#card-list-jadwal {
+    margin: 0px;
+    padding: 0px;
+}
+
+.card-sesi {
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+    opacity: 60%;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.button-sesi {
+    font-size: 13px;
+}
+
+.btn-sesi {
+    margin-left: 10px;
+    justify-content: center;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid #4256AC;
+    font-weight: bold;
+}
+
+.btn-sesi:hover {
+    background-color: #4256AC;
+    animation-delay:3s;
+}
+
+.sesi-hari {
+    color: #6B7B8A;
+    font-size: 12px;
+}
+
+.sesi-tgl{
+    font-size: 15px;
+    color: #524F4F;
+}
+
+
+.sesi-slot-yes {
+    color: #30D158;
+    padding-top: 2px;
+    font-size: 10px;
+}
+
+.sesi-slot-no {
+    color: #FF5A5F;
+    font-size: 10px;
+    padding-top: 2px;
+}
+
+.button-time {
+    font-size: 15px;
+}
+
+.btn-time {
+    margin-left: 10px;
+    justify-content: center;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid #4256AC;
+    font-weight: normal;
+    color: #4256AC;
+}
+
+.btn-time:hover {
+    color: white;
+    border: 1px solid #4256AC;
+    background-color: #4256AC;
+
+}
+
 /* Rate Mentor */
 #card-rating-container {
     margin-bottom: 20px;
+    margin-left: 0px;
+    padding-left: 0px;
 }
 
 .card-tittle-rating {
@@ -289,9 +392,11 @@ h1 {
 
 
 /* Card Reviewer */
-
+#card-container-reviewer {
+    padding-left: 0px;
+}
 #card-reviewer {
-    margin: 0px;
+    margin-left: 0px;
     display: flex;
 }
 #card-reviewer img {
@@ -363,6 +468,7 @@ h1 {
 #card-container {
     display: flex;
 }
+
 
 #card- h3{
     padding-bottom: 20px;

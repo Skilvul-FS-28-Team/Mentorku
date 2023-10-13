@@ -113,23 +113,29 @@
           <div class="col-md-5">
               <!-- Dua kolom kanan -->
               <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12" id="card-sesi-jadwal">
                     <div class="card">
                         <div class="card-body">
-                            <h3 class="card-title">Kolom 1 (Baris 1)</h3>
-                            <p class="card-text">Isi kolom 1 (Baris 1)...</p>
+                            <h3 class="card-title" id="card-jadwal">Pilih Jadwal</h3>
+                            <div class="card" id="card-list-jadwal">
+                            </div>
+                            <p class="card-sesi">Sesi Tersedia</p>
+                            <div class="button-sesi">
+                              <button type="button" class="btn-sesi"><div class="sesi-hari">Senin</div><div class="sesi-tgl">02 Okt</div><div class="sesi-slot-no">01 Slot</div></button>
+                              <button type="button" class="btn-sesi"><div class="sesi-hari">Selasa</div><div class="sesi-tgl">03 Okt<div class="sesi-slot-yes">10 Slot</button>
+                              <button type="button" class="btn-sesi"><div class="sesi-hari">Rabu</div><div class="sesi-tgl">04 Okt<div class="sesi-slot-yes">15 Slot</button>
+                              <button type="button" class="btn-sesi"><div class="sesi-hari">Kamis</div><div class="sesi-tgl">05 Okt<div class="sesi-slot-yes">20 Slot</button>
+                              <button type="button" class="btn-sesi"><div class="sesi-hari">Jumat</div><div class="sesi-tgl">06 Okt<div class="sesi-slot-yes">05 Slot</button>
                         </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="card-title">Kolom 2 (Baris 2)</h3>
-                            <p class="card-text">Isi kolom 2 (Baris 2)...</p>
-                        </div>
+                        <p class="card-sesi">Waktu Tersedia</p>
+                            <div class="button-time">
+                              <button type="button" class="btn-time">10:00</button>
+                              <button type="button" class="btn-time">13:00</button>
+                              <button type="button" class="btn-time">15:00</button>
+                              <button type="button" class="btn-time">19:00</button>
+                              <button type="button" class="btn-time">20:00</button>
+                              <button type="button" class="btn-time">21:00</button>
+                              </div>
                     </div>
                 </div>
             </div>
@@ -326,7 +332,7 @@
     <!-- Rating Section End -->
 
     <!-- Review Card Start -->
-    <div class="container" id="card-container">
+    <div class="container" id="card-container-reviewer">
       <div class="row">
           <div class="col-md-4" id="card-box">
               <div class="card">
