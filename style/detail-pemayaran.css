@@ -135,6 +135,24 @@ hr {
     color: #4D4D4D;
 }
 
+.card-booking {
+    border: none;
+}
+
+.card-booking img{
+    height: 100%;
+}
+
+.card-booking h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #202020;
+    line-height: 140%;
+}
+
+.bi-star-fill {
+    color: #EAB308;
+}
 
 
 
