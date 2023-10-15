@@ -1,0 +1,216 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+:root {
+    --primary-color: #6C60E0;
+    --secondary-color: #FF764A;
+
+    --text-color-2: #414141;
+}
+
+/* navbar */
+
+nav ul li {
+    font-size: 16px;
+}
+
+.btn {
+    padding: 10px 30px;
+    border: none;
+}
+
+.btn-secondary{
+    background-color: var(--secondary-color);
+    border: none;
+}
+.btn-secondary:hover{
+    background-color: #ff9674;
+}
+
+.btn-primary{
+    background-color: var(--primary-color);
+    border: none;
+}
+.btn-primary:hover{
+    background-color: #9b91f4;
+    border: none;
+}
+
+.btn.btn-flat {
+    background-color: transparent;
+    color: var(--text-color-2)
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1C1A1B;
+}
+
+span.primary {
+    color: var(--primary-color);
+}
+
+span.secondary {
+    color: var(--secondary-color);
+    text-decoration: underline;
+    text-decoration-thickness: 7px;
+    text-underline-position: under;
+}
+
+.nav-item {
+    margin-right: 85px;
+    color: #202020;
+}
+
+main {
+    background-color: #F6F7FF;
+}
+
+/* Breadcrumb */
+
+.breadcrumb-section {
+    margin-top: 20px;
+    padding-top: 30px;
+}
+
+.breadcrumb {
+
+}
+
+.breadcrumb-section h2 {
+    padding-top: 5px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.breadcrumb-section .bi-arrow-left-short{
+    font-size: 40px;
+}
+
+/* Mentoring details */
+
+.payment-information-section {
+    padding-bottom: 200px;
+}
+
+hr {
+    border-width: 2.5px;
+}
+
+.mentoring-details {
+    /* padding: 45px 483px 45px 35px; */
+    padding-top: 35px;
+    padding-bottom: 45px;
+    padding-left: 30px;
+    background-color: white;
+    max-width: 715px;
+    border-radius: 16px;
+    border: 1px solid var(#D2D2D2, #D2D2D2);
+    background: white;
+}
+
+.mentoring-detail h5 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #202020;
+}
+
+.mentoring-details h6 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #202020;
+}
+
+.mentoring-details p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #4D4D4D;
+}
+
+.card-booking {
+    border: none;
+}
+
+.card-booking img{
+    height: 100%;
+}
+
+.card-booking h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #202020;
+    line-height: 140%;
+}
+
+.bi-star-fill {
+    color: #EAB308;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer {
+    border-top: 1px solid #EAEAEA;
+    margin-top: 100px;
+}
+
+h5.text-logo {
+    color: #1C1A1B;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sosmed-footer {
+    display: flex;
+    gap: 43px;
+    padding-bottom: 40px;
+}
+
+.sosmed-logo:hover {
+    scale: 1.2;
+    animation: all 0.5s  ease-in-out;
+}
+
+footer h5 {
+    font-size: 18px;
+    color: #797979;
+    font-weight: 600;
+}
+
+footer ul {
+    margin-top: 38px;
+}
+
+footer li {
+    margin-bottom: 12px;
+}
+
+footer ul li a {
+    color: #797979;
+}
