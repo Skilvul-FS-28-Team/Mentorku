@@ -76,12 +76,7 @@ main {
 /* Breadcrumb */
 
 .breadcrumb-section {
-    margin-top: 20px;
     padding-top: 30px;
-}
-
-.breadcrumb {
-
 }
 
 .breadcrumb-section h2 {
@@ -112,8 +107,9 @@ hr {
     background-color: white;
     max-width: 715px;
     border-radius: 16px;
-    border: 1px solid var(#D2D2D2, #D2D2D2);
+    border: 1px solid #e7e7e7;
     background: white;
+    padding-right: 24px;
 }
 
 .mentoring-detail h5 {
@@ -155,6 +151,73 @@ hr {
 }
 
 
+.total-payment {
+    justify-content: space-between;
+}
+
+.normal-price, .discount, .total-payment {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.normal-price, .discount h6 {
+    font-weight: 400;
+}
+
+.discount h6{
+    color: #FF764A;
+}
+
+.voucher-input {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 10px;
+    border: 1.613px solid #E9E9E9;
+    border-radius: 10px;
+    color: #202020;
+    margin-bottom: 10px;
+}
+
+.voucher-input h6 {
+    font-weight: 500;
+}
+
+.name-voucer {
+    display: flex;
+    align-items: center;
+}
+
+.btn-primary{
+    background-color: var(--primary-color);
+    border: none;
+}
+.btn-primary:hover{
+    background-color: #9b91f4;
+    border: none;
+}
+
+h6.total-payment-higlight {
+    color: #6C60E0;
+}
+
+.cta-payment {
+    margin-top: 20px;
+}
+
+
+.cta-payment .btn.btn-primary {
+    width: 100%;
+}
+
+.cta-payment .btn {
+    padding: 15px 30px;
+    border: none;
+}
+
+
 
 
 
@@ -176,8 +239,8 @@ hr {
 
 /* footer */
 footer {
+    padding-top: 20px;
     border-top: 1px solid #EAEAEA;
-    margin-top: 100px;
 }
 
 h5.text-logo {
@@ -214,3 +277,4 @@ footer li {
 footer ul li a {
     color: #797979;
 }
+
