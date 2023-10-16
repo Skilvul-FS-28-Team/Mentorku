@@ -143,6 +143,49 @@ h1 {
     margin-top: 70px;
 }
 
+@media (max-width: 768px) {
+    .background {
+      padding: 40px;
+    }
+  
+    #hero {
+      width: 100%;
+      padding: 10px;
+      margin-top: 0;
+    }
+  
+    .hero-section {
+      flex-direction: column;
+    }
+  
+    .hero-section img {
+      margin-top: 20px;
+      width: 90px;
+      height: 90px;
+    }
+  
+    .hero-text {
+      flex-wrap: nowrap;
+    }
+
+    .hero-desc {
+        display: block;
+    }
+  
+    .hero-desc h2 {
+      font-size: 24px; 
+      margin-top: 10px;
+    }
+
+    .hero-desc h2 span {
+        font-size: 15px;
+        margin: 0;
+    }
+  
+    .hero-social-media {
+      margin-top: 5px;
+    }
+  }
 
 
 /* Description */
@@ -450,6 +493,20 @@ h1 {
     color: var(--primary-color);
 }
 
+@media (max-width: 768px) {
+    #detail-pembayaran {
+        margin-bottom: 20px;
+    }
+    #btn-card-promo {
+        padding-right: 0px;
+        width: 100%;
+    }
+
+    #btn-card-promo p{
+        font-size: 14px;
+    }
+}
+
 
 /* Rate Mentor */
 #card-rating-container {
@@ -647,6 +704,12 @@ h1 {
     color: white;
   }
 
+  @media (max-width: 768px) {
+    #box-card {
+        margin-bottom:10px;
+    }
+  }
+
 
 
 /* Card Mentor */
@@ -765,6 +828,11 @@ h1 {
     color: var(--primary-color);
   }
 
+  @media (max-width: 768px) {
+    #card-body {
+        margin-bottom: 10px;
+    }
+  }
 
 
 
