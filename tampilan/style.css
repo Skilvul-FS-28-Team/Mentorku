@@ -1,0 +1,324 @@
+.login-page {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background-color: #ffffff;
+  }
+  
+  .login-page .text-wrapper {
+    position: absolute;
+    top: 89px;
+    left: 836px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 35px;
+    letter-spacing: -0.39px;
+    line-height: 52.5px;
+    white-space: nowrap;
+  }
+  
+  .login-page .group {
+    position: absolute;
+    width: 489px;
+    height: 96px;
+    top: 198px;
+    left: 836px;
+  }
+  
+  .login-page .rectangle {
+    width: 487px;
+    height: 52px;
+    top: 44px;
+    left: 0;
+    border-radius: 9px;
+    border-color: #000000;
+    position: absolute;
+    background-color: #ffffff;
+    border: 1px solid;
+  }
+  
+  .login-page .email {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 27px;
+    letter-spacing: -0.3px;
+    line-height: 40.5px;
+    white-space: nowrap;
+  }
+  
+  .login-page .span {
+    color: #383838;
+  }
+  
+  .login-page .text-wrapper-2 {
+    color: #ff0000;
+  }
+  
+  .login-page .div {
+    width: 487px;
+    height: 52px;
+    top: 373px;
+    left: 836px;
+    border-radius: 9px;
+    border-color: #000000;
+    position: absolute;
+    background-color: #ffffff;
+    border: 1px solid;
+  }
+  
+  .login-page .password {
+    position: absolute;
+    top: 324px;
+    left: 836px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 27px;
+    letter-spacing: -0.3px;
+    line-height: 40.5px;
+    white-space: nowrap;
+  }
+  
+  .login-page .group-2 {
+    position: absolute;
+    width: 491px;
+    height: 30px;
+    top: 480px;
+    left: 836px;
+  }
+  
+  .login-page .text-wrapper-3 {
+    position: absolute;
+    top: 0;
+    left: 326px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #383838;
+    font-size: 20px;
+    letter-spacing: -0.22px;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+  
+  .login-page .rectangle-2 {
+    width: 25px;
+    height: 25px;
+    top: 2px;
+    left: 0;
+    border-color: #000000cc;
+    position: absolute;
+    background-color: #ffffff;
+    border: 1px solid;
+  }
+  
+  .login-page .text-wrapper-4 {
+    position: absolute;
+    top: 0;
+    left: 33px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #383838;
+    font-size: 20px;
+    letter-spacing: -0.22px;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+  
+  .login-page .daftar {
+    position: absolute;
+    width: 489px;
+    height: 57px;
+    top: 664px;
+    left: 836px;
+  }
+  
+  .login-page .overlap-group {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #7a49e1;
+    position: relative;
+    width: 487px;
+    height: 57px;
+    border-radius: 9px;
+  }
+  
+  .login-page .text-wrapper-5 {
+    position: absolute;
+    top: 9px;
+    left: 203px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #7a49e1;
+    font-size: 25px;
+    letter-spacing: -0.28px;
+    line-height: 37.5px;
+    white-space: nowrap;
+  }
+  
+  .login-page .masuk {
+    position: absolute;
+    width: 489px;
+    height: 57px;
+    top: 572px;
+    left: 836px;
+  }
+  
+  .login-page .overlap {
+    background-color: #7a49e1;
+    position: relative;
+    width: 487px;
+    height: 57px;
+    border-radius: 9px;
+  }
+  
+  .login-page .text-wrapper-6 {
+    top: 10px;
+    left: 202px;
+    color: #ffffff;
+    position: absolute;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: -0.28px;
+    line-height: 37.5px;
+    white-space: nowrap;
+  }
+  
+  .login-page .group-3 {
+    position: absolute;
+    width: 287px;
+    height: 38px;
+    top: 800px;
+    left: 937px;
+  }
+  
+  .login-page .text-wrapper-7 {
+    top: 0;
+    left: 0;
+    color: #282828cc;
+    position: absolute;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: -0.28px;
+    line-height: 37.5px;
+    white-space: nowrap;
+  }
+  
+  .login-page .google-plus {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    top: 2px;
+    left: 202px;
+  }
+  
+  .login-page .facebook {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    top: 2px;
+    left: 249px;
+  }
+  
+  .login-page .group-4 {
+    position: absolute;
+    width: 774px;
+    height: 1024px;
+    top: 0;
+    left: 0;
+    background-color: #f7f4ff;
+    border: 0.5px solid;
+    border-color: #957fd3;
+  }
+  
+  .login-page .group-5 {
+    position: absolute;
+    width: 222px;
+    height: 70px;
+    top: 90px;
+    left: 298px;
+  }
+  
+  .login-page .mentor-ku {
+    position: absolute;
+    width: 143px;
+    top: 14px;
+    left: 77px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: transparent;
+    font-size: 23.6px;
+    letter-spacing: -0.26px;
+    line-height: 35.4px;
+  }
+  
+  .login-page .text-wrapper-8 {
+    color: #1c1a1b;
+  }
+  
+  .login-page .text-wrapper-9 {
+    color: #7b4be2;
+  }
+  
+  .login-page .overlap-group-2 {
+    position: absolute;
+    width: 68px;
+    height: 70px;
+    top: 0;
+    left: 0;
+  }
+  
+  .login-page .vector {
+    position: absolute;
+    width: 55px;
+    height: 56px;
+    top: 14px;
+    left: 13px;
+  }
+  
+  .login-page .img {
+    position: absolute;
+    width: 55px;
+    height: 56px;
+    top: 0;
+    left: 0;
+  }
+  
+  .login-page .overlap-wrapper {
+    position: absolute;
+    width: 494px;
+    height: 589px;
+    top: 216px;
+    left: 164px;
+  }
+  
+  .login-page .overlap-2 {
+    position: relative;
+    height: 589px;
+  }
+  
+  .login-page .ellipse {
+    position: absolute;
+    width: 477px;
+    height: 477px;
+    top: 111px;
+    left: 0;
+    background-color: #957fd3;
+    border-radius: 238.5px;
+  }
+  
+  .login-page .zyro-image {
+    position: absolute;
+    width: 471px;
+    height: 589px;
+    top: 0;
+    left: 23px;
+    object-fit: cover;
+  }
+  
