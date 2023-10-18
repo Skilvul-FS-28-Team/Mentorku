@@ -1,0 +1,424 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+:root {
+    --primary-color: #6C60E0;
+    --secondary-color: #FF764A;
+
+    --text-color-2: #414141;
+}
+
+/* navbar */
+
+nav ul li {
+    font-size: 16px;
+}
+
+.btn {
+    padding: 10px 30px;
+    border: none;
+}
+
+.btn-secondary{
+    background-color: var(--secondary-color);
+    border: none;
+}
+.btn-secondary:hover{
+    background-color: #ff9674;
+}
+
+.btn-primary{
+    background-color: var(--primary-color);
+    border: none;
+}
+.btn-primary:hover{
+    background-color: #9b91f4;
+    border: none;
+}
+
+.btn.btn-flat {
+    background-color: transparent;
+    color: var(--text-color-2)
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1C1A1B;
+}
+
+span.primary {
+    color: var(--primary-color);
+}
+
+span.secondary {
+    color: var(--secondary-color);
+    text-decoration: underline;
+    text-decoration-thickness: 7px;
+    text-underline-position: under;
+}
+
+.nav-item {
+    margin-right: 85px;
+}
+
+/* header */
+
+.header-content {
+    margin-top: 100px;
+}
+
+.header-content h1 {
+    line-height: 150%;
+    margin-bottom: 23px;
+}
+
+.header-content p {
+    color: #7E7E7E;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 140%; 
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 42px;
+}
+
+.statistic h3 {
+    font-weight: 800;
+}
+
+.statistic p {
+    font-size: 16px;
+}
+.search-input {
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #cde6ff;
+    margin-bottom: 50px;
+}
+
+.search-input:focus {
+    border-color: #9c95d7;
+}
+
+/* search bar */
+
+.search-bar {
+    background-color: #F9FBFD;
+    display: flex;
+    padding: 2px;
+    width: 526px;
+    border-radius: 20px;
+    margin-bottom: 60px;
+    margin-top: 43px;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    border-radius: 10px;
+    border: 1px solid var(#F9FBFD, #D1D9E2);
+}
+
+#select {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* color: white; */
+    gap: 20px;
+    min-width: 146px;
+    padding: 15px 20px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 20px 0px 0px 20px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-right: 3px solid #C1C1C1;
+}
+
+#select img {
+    width: 15px;
+}
+
+#select ul {
+    position: absolute;
+    top: 120%;
+    left: 0;
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.952);
+    color: rgb(42, 42, 42);
+    width: 100%;
+    border-radius: 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    color: #797979;
+}
+
+#select ul li {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.search-bar input{
+    padding: 10px 25px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+#select ul.open{
+    max-height: 300px;
+}
+
+.search-button {
+    border: none;
+    border-radius: 20px;
+    padding: 18px 28px;
+    cursor: pointer;
+    background-color: #6C60E0;;
+    z-index: 5;
+}
+
+.search-icon {
+    width: 30px;
+}
+
+.bi-search {
+    font-size: 24px;
+    color: white;
+}
+
+/* Partner */
+
+.partner-section h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.partner-section {
+    background-color: #FAFAFA;
+    color: #6B6B6B;
+    padding: 47px 20px;
+}
+
+p#select-text {
+    margin: 0;
+}
+
+/* benefit */
+
+.benefit-section {
+    background-color: #FAF8FF;
+    padding-top: 90px;
+    padding-bottom: 10px;
+}
+
+.benefit-section h3 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #4D4D4D;
+    margin-bottom: 20px;
+}
+
+.benefit-image img {
+    width: 100%;
+}
+
+.benefit-card {
+    background-color: white;
+    padding: 60px 10px 5px 10px;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 14px;
+    color: #797979;   
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.benefit-card img {
+    position: absolute;
+    top: -30px; /* Menggeser gambar ke atas */
+    left: 3%; /* Pusatkan gambar horizontal */
+    /* transform: translateX(8%); */
+}
+  
+
+.benefit-item h4 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.benefit-item p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.benefit-section a {
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* Recomdation section */
+
+.recomendation-section {
+    margin-top: 100px;
+}
+
+.recomendation-section h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #4D4D4D;
+    margin-bottom: 50px;
+}
+
+.card {
+    cursor: pointer;
+}
+
+.card:hover {
+    filter: drop-shadow(0px 4px 33px rgba(154, 92, 255, 0.1));
+    border: 3px solid #6C60E0;
+    scale: 1.01;
+}
+
+.card-mentor {
+    padding: 13px 15px;
+}
+
+.card-mentor h3{
+    margin-top: 8px;
+    font-weight: 700;
+    color: #4D4D4D;
+    font-size: 20px;
+}
+
+.mentor-company {
+    color: #2573C8;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.mentor-company .bi-suitcase-lg {
+    font-size: 18px;
+}
+
+.mentor-info {
+    background-color: #FAFAFA;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.mentor-experience {
+    font-size: 14px
+}
+
+.mentor-experience p{
+    color: #797979;
+}
+
+.mentor-experience b {
+    color: #384853;
+}
+
+.mentor-status {
+    padding: 7px 22px;
+    background-color: #D5E9FE;
+    border-radius: 22px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #575757;
+}
+
+.price-info {
+    margin-top: 12px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 600;
+    color: #7A49E1;
+}
+
+.rating b {
+    color: #4D4D4D;
+    font-weight: 500;
+}
+
+.bi-star-fill {
+    color: #EAB308;
+}
+
+/* Banner Join mentor */
+
+.join-mentor-section {
+    margin-top: 100px;
+}
+
+.banner-join-mentor {
+    background-image: url(/Assets/Img/banner\ jadi\ mentor.png);
+    background-size: cover;
+    padding: 80px 259px;
+    border-radius: 20px;
+    color: white;
+}
+
+.banner-join-mentor h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+/* footer */
+footer {
+    border-top: 1px solid #EAEAEA;
+    margin-top: 100px;
+}
+
+h5.text-logo {
+    color: #1C1A1B;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sosmed-footer {
+    display: flex;
+    gap: 43px;
+    padding-bottom: 40px;
+}
+
+.sosmed-logo:hover {
+    scale: 1.2;
+    animation: all 0.5s  ease-in-out;
+}
+
+footer h5 {
+    font-size: 18px;
+    color: #797979;
+    font-weight: 600;
+}
+
+footer ul {
+    margin-top: 38px;
+}
+
+footer li {
+    margin-bottom: 12px;
+}
+
+footer ul li a {
+    color: #797979;
+}
