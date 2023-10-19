@@ -98,8 +98,9 @@ h1 {
     align-items: center;
     background: linear-gradient(to bottom, #E5DCFF, #BED8FF);
 }
+
 #hero {
-    weight: 20%;
+    height: 20%;
     margin-bottom: 40px;
     margin-top: -80px;
 
@@ -327,8 +328,13 @@ h1 {
 }
 
 .btn-sesi:hover {
-    background-color: #4256AC;
+    background-color: #e8ecff;
     animation-delay:3s;
+}
+
+/* combine */
+.btn-time:focus, .btn-sesi:focus {
+    background-color: #bdc9ff;
 }
 
 .sesi-hari {
@@ -379,7 +385,6 @@ h1 {
     border: 1px solid #4256AC;
     background-color: #4256AC;
 }
-
 
 
 
@@ -645,7 +650,6 @@ h1 {
     width: 15%;
     height: 15%;
     border-radius: 100%;
-    padding-right
 }
 
 .card-body-reviewer{
@@ -878,4 +882,13 @@ footer li {
 
 footer ul li a {
     color: #797979;
+}
+
+
+
+
+/* add on gidion */
+
+.btn-sesi .focused, .button-time .foc {
+    background-color: #bdc9ff;
 }
