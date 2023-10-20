@@ -44,5 +44,24 @@ fetch('https://652ff6b96c756603295e01fb.mockapi.io/datamentor')
   const btnBooking = document.getElementById('btn-booking-mentor')
 
   btnBooking.addEventListener('click', function(){
+
+    fetch('https://652ff6b96c756603295e01fb.mockapi.io/datamentor')
+  .then(res => res.json())
+  .then(res => {
+    
+    const idMentor = urlParams.get('id');
+    const selectedMentor = res.find(datamentor => datamentor.id === idMentor);
+    console.log(selectedMentor)
+    
+    const url = `detail-pembayaran.html?id=${selectedMentor.id}`;
+
+    window.location.href = url;
+
+   
+  })
+  .catch(error => {
+    console.error('Error fetching data from the API:', error);
+  });
+
     
   })
