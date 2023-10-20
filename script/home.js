@@ -18,7 +18,7 @@ for(option of options){
     }
 }
 
-// oper nilai dari home
+// oper nilai input dari home
 
 let searchBtn = document.getElementById('search-btn');
 
@@ -31,4 +31,3 @@ searchBtn.addEventListener('click',function(){
     window.location.href = url;
 
 })
-
