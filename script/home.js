@@ -31,3 +31,20 @@ searchBtn.addEventListener('click',function(){
     window.location.href = url;
 
 })
+
+// lINKER BUTTON
+
+const btnLogin = document.getElementById('btn-login');
+const btnRegist = document.getElementById('btn-regist');
+
+btnLogin.addEventListener('click',function(){
+    const url = `login.html`;
+
+    window.location.href = url;
+})
+
+btnRegist.addEventListener('click',function(){
+    const url = `registrasi.html`;
+
+    window.location.href = url;
+})
