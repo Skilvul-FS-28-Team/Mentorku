@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="assets/img/Only-Logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/style/detail-pemayaran.css">
+    <title>Detail Pembayaran</title>
+</head>
+<body>
+    
+    <header>
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/Only-Logo.png" alt="" srcset="" class="me-1">
+                Mentor<span class="primary">Ku</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item mx-5">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link" href="#">Top Mentor</a>
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link" href="#">Event</a>
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link" href="#">Jadi Mentor</a>
+              </li>
+            </ul>
+
+            <div>
+                <button class="btn btn-flat">Login</button>
+                <button class="btn btn-secondary">Register</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+        <section class="breadcrumb-section">
+            <div class="container">
+                <div class="breadcrumb d-inline-flex gap-2 align-items-center">
+                    <i class="bi bi-arrow-left-short"></i><h2>Konfirmasikan dan Bayar</h2>
+                </div>
+            </div>
+        </section>
+
+        <section class="payment-information-section">
+            <div class="container">
+               <div class="row">
+                    <div class="col-12 col-xl-7 col-md-12 col-sm-12">
+                        <div class="mentoring-details">
+                            <h5>Mentoring Anda</h5>
+                            <hr>
+                            <h6>Mentor</h6>
+                            <p id="namamentor"></p>
+                            <h6>Hari/Tanggal</h6>
+                            <p>Rabu, 02 November 2022</p>
+                            <h6>Waktu</h6>
+                            <p>13.00 - 13.45 WIB</p>
+                        </div>
+                        <br>
+                        <!-- <div class="mentoring-details">
+                            <h5>Mentoring Anda</h5>
+                            <hr>
+                            <h6>Mentor</h6>
+                            <p>Lina Wiona</p>
+                            <h6>Hari/Tanggal</h6>
+                            <p>Rabu, 02 November 2022</p>
+                            <h6>Waktu</h6>
+                            <p>13.00 - 13.45 WIB</p>
+                        </div> -->
+                    </div>
+
+                    <div class="col-12 col-xl-5 col-md-12 col-sm-12 py-xl-0 py-md-3 py-sm-4 py-3">
+                        <div class="card card-booking mb-3">
+                            <div class="row g-0">
+                              <div class="col-md-5 col-sm-12">
+                                <img src="Assets/Img/card-detail.png" class="img-fluid rounded-start" alt="...">
+                              </div>
+                              <div class="col-md-7">
+                                <div class="card-body">
+                                  <h5 class="card-title">Mentoring 1 on 1 Oleh <br></h5>
+                                  <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+                                  <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+                                  <hr>
+                                  <div class="card-booking-rating d-inline-flex gap-2 align-items-center">
+                                    <i class="bi bi-star-fill"></i>4.9<b>(576)</b>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        <br>
+
+                        <div class="mentoring-details">
+                            <h5>Detail Pembayaran</h5>
+                            <hr>
+                            <div class="voucher-input">
+                              <div class="name-voucer"><h6>Masukkan Voucer</h6></div>
+                              <div><h6>></h6></div>
+                            </div>
+                            <div class="payment-cart">
+                              <div class="normal-price"><h6>1 on 1 Mentoring</h6><h6>Rp90.000</h6></div>
+                              <div class="discount"><h6>Diskon Spesial</h6><h6>- Rp10.000</h6></div>
+                              <hr>
+                              <div class="total-payment">
+                                <div><h6>Total Biaya</h6></div>
+                                <div><h6 class="total-payment-higlight">Rp.80.000</h6></div>
+                              </div>
+                              <div id="cta-payment" class="cta-payment">
+                                <button class="btn btn-primary">Lakukan Pembayaran</button>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="text-black">
+      <div class="container py-3">
+        <div class="row">
+          <div class="col-lg-5 col-md-12 mb-4 mb-md-0">
+            <img class="my-2" src="/Assets/Img/Only-Logo.png" alt="" srcset="">
+            <h5 class="text-logo">Mentor<span class="primary">ku</span></h5>
+            <p>Booking dan temukan mentor proffesional dengan mudah.</p>
+            <div class="sosmed-footer">
+              <div class="sosmed-logo">
+                <img src="/Assets/Img/social media/instagram.png" alt="" srcset="">
+              </div>
+              <div class="sosmed-logo">
+                <img src="/Assets/Img/social media/linkedin.png" alt="" srcset="">
+              </div>
+              <div class="sosmed-logo">
+                <img src="/Assets/Img/social media/twitter.png" alt="" srcset="">
+              </div>
+              <div class="sosmed-logo">
+                <img src="/Assets/Img/social media/youtube.png" alt="" srcset="">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+            <h5>Mentorku</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!">Karir</a>
+              </li>
+              <li>
+                <a href="#!">Tentang Kami</a>
+              </li>
+              <li>
+                <a href="#!">Partner</a>
+              </li>
+              <li>
+                <a href="#!">Blog</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+            <h5>Layanan</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!">Mentoring</a>
+              </li>
+              <li>
+                <a href="#!">Course</a>
+              </li>
+              <li>
+                <a href="#!">Challenge</a>
+              </li>
+              <li>
+                <a href="#!">Event</a>
+              </li>
+              <li>
+                <a href="#!">Paket</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-4 mb-4 mb-md-0">
+            <h5>Bantuan dan Panduan</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!">Syarat dan Ketentuan</a>
+              </li>
+              <li>
+                <a href="#!">Kebijakan Privasi</a>
+              </li>
+              <li>
+                <a href="#!">Bantuan</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <script src="/script/detail-pembayaran.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

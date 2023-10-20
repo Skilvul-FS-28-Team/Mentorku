@@ -1,0 +1,295 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+:root {
+    --primary-color: #6C60E0;
+    --secondary-color: #FF764A;
+
+    --text-color-2: #414141;
+}
+
+/* navbar */
+
+nav ul li {
+    font-size: 16px;
+}
+
+.btn {
+    padding: 15px 56px;
+    border: none;
+    max-width: 300px;
+}
+
+.btn-secondary{
+    background-color: var(--secondary-color);
+    border: none;
+}
+.btn-secondary:hover{
+    background-color: #ff9674;
+}
+
+.btn-primary{
+    background-color: var(--primary-color);
+    border: none;
+}
+.btn-primary:hover{
+    background-color: #9b91f4;
+    border: none;
+}
+
+.btn.btn-flat {
+    background-color: transparent;
+    color: var(--text-color-2)
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1C1A1B;
+}
+
+span.primary {
+    color: var(--primary-color);
+}
+
+span.secondary {
+    color: var(--secondary-color);
+    text-decoration: underline;
+    text-decoration-thickness: 7px;
+    text-underline-position: under;
+}
+
+.nav-item {
+    margin-right: 85px;
+}
+
+
+
+/* main */
+
+main {
+    background-color: #F6F7FF;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.box-payment {
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    text-align: center;
+    border-radius: 16px;
+    background: #FDFDFD;
+    filter: drop-shadow(0px 0px 32px rgba(0, 0, 0, 0.10));
+}
+
+.icon-payment {
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.icon-payment h5 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.title-price{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+
+.title-price span {
+    opacity: 80%;
+    margin-top: 5px;
+}
+
+.text-price {
+    display:flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    opacity: 90%;
+    margin-top: 0px;
+}
+
+.text-price h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.text-price span{
+    color: #4256AC;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.category-payment {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-between;
+}
+
+.category-payment img{
+    width: 25px;
+    height: 25px;
+}
+
+.barcode-payment {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 130px;
+    margin-top: 70px;
+}
+
+.bi-check-circle-fill{
+    font-size: 180px;
+    color: #04D57D;
+}
+
+.box-payment h2{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    color: #4D4D4D;
+}
+
+.box-payment p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #797979;
+}
+
+.button-container {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.btn-border-primary {
+    background-color: transparent;
+    border: 3px solid var(--primary-color);
+    border-radius: 8px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+.btn-border-primary:hover {
+    background-color: #d8d4fd;
+    border: 3px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+    .nav-item {
+        margin-right: 15px;
+    }
+
+    .navbar-brand {
+        font-size: 18px;
+    }
+
+    .box-payment{
+        margin-top: -75px;
+        margin-bottom: -75px;
+    }
+
+    .icon-payment {
+        display: none;
+    }
+
+    .card {
+        display: none;
+    }
+
+    .box-payment {
+        padding: 10px;
+    }
+
+    .title-price, .text-price, .category-payment {
+        display: flex;
+        justify-content: space-between;
+        }
+    
+        .barcode-payment {
+            margin-left: 80px;
+        }
+
+    .text-price h3 {
+        font-size: 24px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer {
+    border-top: 1px solid #EAEAEA;
+    padding-top: 38px;
+}
+
+h5.text-logo {
+    color: #1C1A1B;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sosmed-footer {
+    display: flex;
+    gap: 43px;
+    padding-bottom: 40px;
+}
+
+.sosmed-logo:hover {
+    scale: 1.2;
+    animation: all 0.5s  ease-in-out;
+}
+
+footer h5 {
+    font-size: 18px;
+    color: #797979;
+    font-weight: 600;
+}
+
+footer ul {
+    margin-top: 38px;
+}
+
+footer li {
+    margin-bottom: 12px;
+}
+
+footer ul li a {
+    color: #797979;
+}
