@@ -21,7 +21,7 @@ btnlogin.addEventListener('click', function (event) {
                 alert('Email atau Password Salah')
             } else {
 
-                const url = `Home.html`;
+                const url = `index.html`;
 
                 window.location.href = url;
 

@@ -1,7 +1,7 @@
 const btn = document.getElementById('back-home');
 
 btn.addEventListener('click',function(){
-    const url = `Home.html`;
+    const url = `index.html`;
 
     window.location.href = url;
 })
