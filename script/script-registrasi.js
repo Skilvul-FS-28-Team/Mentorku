@@ -23,5 +23,14 @@ registerbtn.addEventListener("click", function(event){
     })
 
   }) .then(res=>res.json())
-  .then(res=>alert("Register Berhasil"))
+  .then(res=>{
+    alert("Register Berhasil")
+
+    const url = `login.html`;
+
+    window.location.href = url;
+  })
+  .catch(error => {
+    alert("Gagal Mendaftar Harap Coba Lagi Nanti");
+  });
 })

@@ -18,7 +18,14 @@ btnlogin.addEventListener('click', function (event) {
             const userExist = res.find(user => user.email === email && user.password === password)
             console.log(userExist);
             if (userExist === undefined) {
-                console.log("Email atau Password Salah")
+                alert('Email atau Password Salah')
+            } else {
+
+                const url = `Home.html`;
+
+                window.location.href = url;
+
+                alert('Yeayy Login Berhasil')
             }
         })
 })
