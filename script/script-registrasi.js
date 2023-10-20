@@ -1,6 +1,6 @@
-const regist = document.getElementById("regist");
+const registerbtn = document.getElementById("register-btn");
 
-regist.addEventListener("click", function(event){
+registerbtn.addEventListener("click", function(event){
     event.preventDefault()
 
     const namaDepan = document.getElementById('NamaDepan').value;
@@ -15,7 +15,7 @@ regist.addEventListener("click", function(event){
       'Accept': 'application/json',
       'Content-Type': 'application/json'
     },
-    body: JSON.stringify({firstName: namaDepan, 
+    body: JSON.stringify({firstName: NamaDepan, 
         lastName: NamaBelakang,
         email: email,
         password: password,
